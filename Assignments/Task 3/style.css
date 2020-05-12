@@ -1,0 +1,271 @@
+body {
+    color: #303A3D;
+    font-family: Helvetica;
+    //background-image: url("back.jpg");
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.nav-bar {
+    background: rgba(0,0,0.4,0.4);
+    width: 100%;
+    height: 55px;
+}
+.nav-bar .logo {
+    float: left;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+.nav-bar ul {
+    float: right;
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #303A3D;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 50px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 10px;
+    color: #303A3D;
+}
+
+.nav-bar ul li a:hover{
+    background: lightgray;
+}
+
+.nav-bar .signup {
+    font-size: 18px;
+    padding: 5px 30px;
+    margin: 10px;
+    border: 1px solid #303A3D;
+}
+
+.headline {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.headline h1 {
+    padding: 10px;
+    margin: 10px 20px;
+    font-size: 44px;
+}
+
+.headline p {
+    padding: 30px;
+    margin: 10px 100px;
+}
+
+.headline .cta {
+    border: 1px solid #303A3D;
+    padding: 10px;
+    width: 20%;
+    margin: 10px 30px;
+}
+
+.midimage {
+    display: block;
+    margin: 25px auto 0px auto;
+    width: 50%;
+    border: 2px solid #303A3D;
+}
+
+.midhead {
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+    padding: 20px;
+}
+.features ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 20px;
+    justify-content: space-evenly;
+}
+
+.features ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.features li h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.feat .fa {
+    margin: 0 10px;
+    float: left;
+    height: 100%;
+}
+
+.feat .fa:after {
+    display:block;
+    content:"";
+    clear:both;
+}
+
+.work {
+    padding: 20px;
+    margin: 20px 40px;
+    height: 400px;
+    border: 3px solid #303A3D;
+    text-align: left;
+    background-image: linear-gradient(to right, #43BD94, #4C5E83);
+}
+
+.workhead {
+    padding: 20px;
+    margin: 20px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.workpara {
+    padding-left: 12px;
+    line-height: 28px;
+    margin-left: 40px;
+    font-size: 16px;
+    
+}
+
+.workimg {
+    padding: 30px 20px;
+    margin: 20px;
+    float: right;
+   
+}
+
+.work button {
+    padding: 10px 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border: 1px solid #303A3D;
+}
+
+.about {
+    text-align: center;
+    margin: 20px 120px;
+}
+
+.about h1 {
+    margin: 16px;
+    font-size: 48px;
+}
+
+.about p {
+    margin: 15px 80px;
+    padding: 5px 10px;
+}
+
+.about hr {
+    width: 20%;
+    margin: 15px auto;
+}
+
+.userreview {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.userreview li {
+    padding: 0 20px;
+    margin: 0 10px;
+}
+
+.contact {
+    padding: 60px;
+    margin: 30px 60px;
+    height: 250px;
+    text-align: center;
+    border: 1px solid #303A3D;
+    background-image: linear-gradient(to right,#194469,#1B2056);
+    color: #F0FFF0;
+}
+
+.contact h1 {
+    padding: 10px 30px;
+    margin: 20px;
+    font-size: 44px;
+}
+
+.contact p {
+    padding: 10px;
+    margin: 20px;
+    font-size: 1.1em;
+}
+
+.contact input {
+    padding: 8px 10px;
+    margin: 15px;
+    width: 250px;
+    border: 1px solid #303A3D;
+}
+
+.contact button {
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid #303A3D;
+}
+
+.brands {
+    padding: 60px;
+    margin: 0px 60px 30px 60px;
+    height: 60px;
+    background-color: #194472;
+    color: white;
+    border: 1px solid #303A3D;
+}
+.brands ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.brandlist li {
+    flex: 0 0 10px;
+    width: 10%;
+}
+
+.bottom {
+    margin: 0px 100px 0px 100px;
+}
+
+.bottom .main-ul {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-list {
+    font-size: 18px;
+    margin: 20px;
+    width: 20%;
+}
+
+.bottom-links {
+    list-style-type: none;
+    margin-bottom: 50px;
+}
